@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url('assets/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 2rem;
+  backdrop-filter: brightness(0.5);
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: auto;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.hidden {
+  display: none;
+}
